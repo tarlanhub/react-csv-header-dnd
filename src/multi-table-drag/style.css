@@ -1,0 +1,123 @@
+.c-multi-drag-table.is-dragging table {
+  border: 1px solid #4285f4;
+}
+.c-multi-drag-table .ant-col {
+  position: relative;
+}
+.c-multi-drag-table .ant-col:first-child:after {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: #e2e2e2;
+  z-index: 1;
+}
+.c-multi-drag-table .inner-col {
+  position: relative;
+  height: 100%;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  padding: 10px;
+  /* z-index: 2; */
+}
+.c-multi-drag-table .ant-table {
+  border: 1px solid #f0f0f0;
+}
+.c-multi-drag-table .ant-table-thead > tr > th,
+.c-multi-drag-table .ant-table-tbody > tr > td,
+.c-multi-drag-table .ant-table tfoot > tr > th,
+.c-multi-drag-table .ant-table tfoot > tr > td {
+  padding: 6px 16px;
+}
+.c-multi-drag-table .ant-table-tbody > tr.ant-table-placeholder > td,
+.c-multi-drag-table .ant-table-tbody > tr.ant-table-placeholder:hover > td {
+  background: transparent;
+}
+.c-multi-drag-table .ant-table-tbody > tr.row-item {
+  background: #fff;
+}
+.c-multi-drag-table
+  .ant-table-tbody.is-dragging-over
+  > tr.ant-table-placeholder {
+  background: #deebff !important;
+}
+.c-multi-drag-table .ant-table-tbody > tr.row-item.row-selected {
+  background: #deebff;
+}
+.c-multi-drag-table .ant-table-tbody > tr.row-item.row-dragging {
+  display: table;
+  color: #fff;
+  background: #4285f4;
+  border: 1px solid #f0f0f0;
+}
+.c-multi-drag-table .ant-table-tbody > tr.row-item.row-dragging > td {
+  border-bottom: 0;
+}
+.c-multi-drag-table .ant-table-tbody > tr.row-item.row-ghosting {
+  opacity: 0.5;
+}
+.button {
+  background-color: rgb(82, 82, 250);
+  color:white;
+  border: 1px solid;
+  border-color:white;
+  border-radius: 20px;
+  height: 100%;
+  width: 20%;
+  font-size: 15px
+}
+.editor {
+
+ width: 100%;
+text-align:center;
+}
+
+.editor1{
+border: 1.5px solid;
+border-color: rgb(226, 225, 225);
+margin-top: 15rem;
+padding-top: 20px;
+border-radius: 5px;
+border-width: thin;
+margin-right:15rem;
+margin-left:15rem;
+display: flex;
+justify-content: center
+}
+.edit2 {
+  margin-left: 5rem;
+  margin-right:5rem;
+  
+}
+.input-group {
+  width: 100%;
+  padding:10px;
+  text-align: center
+
+}
+.col-md-12 {
+  widows: 100%;
+  border: 1px solid;
+  border-color: rgb(197, 196, 196);
+  margin-bottom:10px;
+  
+  margin-left:100px;
+  margin-right:100px
+}
+.input{
+  text-align:center;
+  width:50%;
+  border: 1px solid;
+  border-color:rgb(204, 204, 204);
+  height: 30px;
+  margin-bottom:10px;
+  margin-top:10px;
+} 
+.MuiFormControl-root { 
+
+  margin-left: 5rem;
+  margin-right:5rem;
+}
